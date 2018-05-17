@@ -1,0 +1,7 @@
+#!/bin/bash
+clear
+echo "Inicializando BengalaIoT."
+
+xterm -e sudo python /home/linaro/Bengalaiot/Ultrassom1.py & 
+xterm -e sudo python /home/linaro/Bengalaiot/Ultrassom2.py & 
+xterm -e sudo python /home/linaro/Bengalaiot/Buzzer.py
